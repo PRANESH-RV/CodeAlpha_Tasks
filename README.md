@@ -1,64 +1,32 @@
-# CodeAlpha_Tasks
-# Java Application using Gradle
+# 🚀 CodeAlpha DevOps Internship Projects
 
-## 📌 Project Overview
+## 📌 Overview
 
-This project demonstrates how to build and run a Java application using the Gradle build automation tool. It includes project compilation, dependency management, testing, and executable JAR generation.
+This repository contains the projects completed during the **CodeAlpha DevOps Internship**. The projects demonstrate practical knowledge of build automation, containerization, and deployment using modern DevOps tools.
 
-This project was developed as part of the **CodeAlpha DevOps Internship**.
+---
 
+# 📋 Completed Tasks
 
-## 🚀 Features
+## ✅ Task 1: Java Application using Gradle
 
-- Java application built with Gradle
-- Dependency management
-- Build automation
-- JUnit testing support
-- Executable JAR creation
-- Cross-platform Gradle Wrapper support
+### Description
+Built a Java application using the Gradle build automation tool. The project demonstrates dependency management, project compilation, testing, and application execution.
 
-
-## 🛠️ Technologies Used
-
+### Technologies Used
 - Java 21
 - Gradle 8.x
-- JUnit 5
 - Git
 - Linux Mint
 
+### Features
+- Java application development
+- Build automation using Gradle
+- Dependency management
+- Executable JAR generation
+- Cross-platform Gradle Wrapper support
 
-## 📂 Project Structure
-
-```
-Java-Gradle-Project
-│
-├── src/
-│   ├── main/
-│   │   └── java/
-│   └── test/
-│       └── java/
-│
-├── build.gradle
-├── settings.gradle
-├── gradlew
-├── gradlew.bat
-└── README.md
-```
-
-
-## ⚙️ Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/yourusername/Java-Gradle-Project.git
-```
-
-Move into the project
-
-```bash
-cd Java-Gradle-Project
-```
+### Commands
 
 Build the project
 
@@ -71,28 +39,128 @@ Run the application
 ```bash
 gradle run
 ```
- 📸 Sample Output
 
-=================================
-CodeAlpha Gradle Project
-Hello World!
-Java Version : 21
-=================================
+Clean the project
 
+```bash
+gradle clean
+```
 
-Learning Outcomes
+---
 
-- Gradle Build System
-- Java Project Structure
+## 🐳 Task 2: Docker Web Server
+
+### Description
+
+Created a Dockerized web server that hosts a static website using the Nginx web server. The project demonstrates containerization and deployment using Docker.
+
+### Technologies Used
+
+- Docker
+- Nginx
+- HTML5
+- CSS3
+- Git
+- Linux Mint
+
+### Features
+
+- Docker image creation
+- Nginx web server configuration
+- Static website hosting
+- Containerized deployment
+
+### Commands
+
+Build Docker Image
+
+```bash
+docker build -t docker-web-server .
+```
+
+Run Docker Container
+
+```bash
+docker run -d -p 8080:80 --name docker-web-server docker-web-server
+```
+
+Stop Container
+
+```bash
+docker stop docker-web-server
+```
+
+Remove Container
+
+```bash
+docker rm docker-web-server
+```
+
+---
+
+# 🛠️ Tools & Technologies
+
+- Java
+- Gradle
+- Docker
+- Nginx
+- Git
+- GitHub
+- Linux Mint
+
+---
+
+# 📂 Repository Structure
+
+```
+CodeAlpha-DevOps/
+│
+├── Task-1-Java-Gradle/
+│   ├── src/
+│   ├── build.gradle
+│   ├── settings.gradle
+│   └── README.md
+│
+├── Task-2-Docker-Web-Server/
+│   ├── Dockerfile
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
+│
+└── README.md
+```
+
+---
+
+# 📚 Skills Gained
+
+- Java Application Development
+- Gradle Build Automation
 - Dependency Management
-- Build Automation
-- Executable JAR Generation
+- Docker Containerization
+- Nginx Web Server Configuration
+- Linux Command Line
+- Version Control with Git
+- GitHub Repository Management
 
+---
 
-## 👨‍💻 Author
+# 🎯 Internship
 
-Pranesh R V
+**Organization:** CodeAlpha
 
-Computer Science and Engineering
+**Domain:** DevOps Engineering
 
-CodeAlpha DevOps Intern
+---
+
+# 👨‍💻 Author
+
+**Pranesh R V**
+
+Computer Science and Engineering Student
+
+GitHub: https://github.com/your-username
+
+---
+
+## ⭐ If you found these projects useful, consider giving this repository a star!
